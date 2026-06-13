@@ -84,31 +84,31 @@ Split movies containing multiple genres.
 Used Pandas explode() to analyze each genre individually.
 
 # Exploratory Data Analysis
-Genre Distribution
+# Genre Distribution
 
 Analyzed the frequency of movie genres available in the dataset.
 
-Key Finding:
+# Key Finding:
 Drama emerged as the most common genre.
 
-Vote Average Analysis
+# Vote Average Analysis
 
 Visualized the distribution of movie ratings after categorization.
 
-Key Finding:
+# Key Finding:
 Most movies fall into the Average rating category.
 
-Popularity Analysis
+# Popularity Analysis
 
 Identified:
 
 -Most Popular Movie
 -Least Popular Movie
 
-Most Popular Movie:
+# Most Popular Movie:
 🎥 Spider-Man: No Way Home
 
-Release Year Trends
+# Release Year Trends
 
 Studied how movie releases are distributed across years.
 
@@ -119,8 +119,11 @@ Insights were obtained using histogram-based visualization.
 Generated a correlation heatmap to understand relationships among numerical variables such as:
 
 -Popularity
+
 -Vote Count
+
 -Vote Average
+
 -Top 10 Most Popular Movies
 
 Created a ranking of the top-performing movies based on popularity scores and visualized the results using bar charts.
@@ -138,8 +141,13 @@ Created a ranking of the top-performing movies based on popularity scores and vi
 ✔ Top 10 Popular Movies Bar Chart
 
 # Key Insights
+
 Drama is the most dominant genre.
+
 Most movies belong to the Average rating category.
+
 Spider-Man: No Way Home has the highest popularity score.
+
 Movie releases show strong growth in recent years.
+
 Popularity and vote-related features exhibit meaningful correlations
