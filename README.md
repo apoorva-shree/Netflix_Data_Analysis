@@ -55,13 +55,13 @@ The dataset contains information such as:
 
 Several preprocessing steps were performed before analysis:
 
-1.Date Formatting
+## 1.Date Formatting
 
 -Converted Release_Date column to datetime format.
 
 -Extracted only the release year for easier trend analysis.
 
-2.Feature Selection
+## 2.Feature Selection
 
 Removed unnecessary columns:
 
@@ -71,7 +71,7 @@ Removed unnecessary columns:
 
 -Original_Language
 
-3.Rating Categorization
+## 3.Rating Categorization
 
 The Vote_Average column was categorized into:
 
@@ -83,11 +83,11 @@ The Vote_Average column was categorized into:
 
 -Not Popular
 
-4.Missing Values Handling
+## 4.Missing Values Handling
 
 Removed rows containing null values.
 
-5.Genre Transformation
+## 5.Genre Transformation
 
 -Split movies containing multiple genres.
 
@@ -98,14 +98,14 @@ Removed rows containing null values.
 
 Analyzed the frequency of movie genres available in the dataset.
 
-# Key Finding:
+## Key Finding:
 Drama emerged as the most common genre.
 
 # Vote Average Analysis
 
 Visualized the distribution of movie ratings after categorization.
 
-# Key Finding:
+## Key Finding:
 Most movies fall into the Average rating category.
 
 # Popularity Analysis
@@ -115,10 +115,10 @@ Identified:
 -Most Popular Movie
 -Least Popular Movie
 
-# Most Popular Movie:
+## Most Popular Movie:
 🎥 Spider-Man: No Way Home
 
-# Release Year Trends
+## Release Year Trends
 
 Studied how movie releases are distributed across years.
 
@@ -138,17 +138,40 @@ Generated a correlation heatmap to understand relationships among numerical vari
 
 Created a ranking of the top-performing movies based on popularity scores and visualized the results using bar charts.
 
-# Visualizations Included
+# Visualizations
 
-✔ Genre Distribution Count Plot
+### Genre Distribution
+Shows the frequency of each movie genre in the dataset.
 
-✔ Vote Average Distribution Plot
+![Genre Distribution](Images/genre%20column%20distribution.png)
 
-✔ Release Year Histogram
+---
 
-✔ Correlation Heatmap
+### Vote Average Distribution
+Shows how movie ratings are distributed across the dataset.
 
-✔ Top 10 Popular Movies Bar Chart
+![Vote Average Distribution](Images/Avg_vote%20distribution.png)
+
+---
+
+### Movie Releases Per Year
+Displays the number of movies released each year.
+
+![Movies Per Year](Images/movies%20distribution%20per%20year.png)
+
+---
+
+### Top 10 Most Popular Movies
+Highlights the movies with the highest popularity scores.
+
+![Top 10 Movies](Images/Top%2010%20movies.png)
+
+---
+
+### Correlation Heatmap
+Visualizes relationships between numerical variables.
+
+![Correlation Heatmap](Images/Correlaion%20heatmap.png)
 
 # Key Insights
 
