@@ -7,19 +7,30 @@ The goal of this project is to perform Exploratory Data Analysis (EDA), clean an
 
 # Objectives
 -Clean and preprocess movie dataset
+
 -Analyze genre distribution across movies
+
 -Examine movie popularity trends
+
 -Study rating patterns using vote averages
+
 -Identify the most and least popular movies
+
 -Explore movie release trends over the years
+
 -Visualize relationships between numerical features
 
 # Technologies Used
 -Python
+
 -Pandas
+
 -NumPy
+
 -Matplotlib
+
 -Seaborn
+
 -Jupyter Notebook
 
 # Dataset Features
@@ -27,13 +38,18 @@ The goal of this project is to perform Exploratory Data Analysis (EDA), clean an
 The dataset contains information such as:
 
 -Movie Title
+
 -Genre
+
 -Release Date
+
 -Popularity Score
+
 -Vote Average
+
 -Vote Count
+
 -Overview
--Original Language
 
 # Data Preprocessing
 
