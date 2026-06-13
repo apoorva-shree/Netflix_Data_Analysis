@@ -55,33 +55,43 @@ The dataset contains information such as:
 
 Several preprocessing steps were performed before analysis:
 
-1. Date Formatting
+1.Date Formatting
+
 -Converted Release_Date column to datetime format.
+
 -Extracted only the release year for easier trend analysis.
 
-2. Feature Selection
+2.Feature Selection
 
 Removed unnecessary columns:
 
 -Overview
+
 -Poster_URL
+
 -Original_Language
 
-3. Rating Categorization
+3.Rating Categorization
 
 The Vote_Average column was categorized into:
 
 -Popular
+
 -Average
+
 -Below Average
+
 -Not Popular
 
-4. Missing Values Handling
+4.Missing Values Handling
+
 Removed rows containing null values.
 
-5. Genre Transformation
-Split movies containing multiple genres.
-Used Pandas explode() to analyze each genre individually.
+5.Genre Transformation
+
+-Split movies containing multiple genres.
+
+-Used Pandas explode() to analyze each genre individually.
 
 # Exploratory Data Analysis
 # Genre Distribution
