@@ -161,3 +161,6 @@ Spider-Man: No Way Home has the highest popularity score.
 Movie releases show strong growth in recent years.
 
 Popularity and vote-related features exhibit meaningful correlations
+
+# Author
+Apoorva Shree
