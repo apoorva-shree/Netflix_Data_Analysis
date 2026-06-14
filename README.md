@@ -103,18 +103,31 @@ The dataset contains information such as:
 
 Netflix_Data_Analysis/
 │
+
 ├── Images/
+
 │   ├── Avg_vote distribution.png
+
 │   ├── Correlation heatmap.png
+
 │   ├── Top 10 movies.png
+
 │   ├── genre column distribution.png
+
 │   └── movies distribution per year.png
+
 │
+
 ├── Netflix_data_analysis.ipynb
+
 ├── mymoviedb.csv
+
 ├── requirements.txt
+
 ├── README.md
+
 └── .gitignore
+
 
 ## Author
 
