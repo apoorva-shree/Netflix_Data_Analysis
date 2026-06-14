@@ -65,37 +65,19 @@ The dataset contains information such as:
 ## Visualizations
 
 ### Genre Distribution
-Shows the frequency of each movie genre in the dataset.
-
 ![Genre Distribution](Images/genre%20column%20distribution.png)
 
----
+### Average Vote Distribution
+![Average Vote Distribution](Images/Avg_vote%20distribution.png)
 
-### Vote Average Distribution
-Shows how movie ratings are distributed across the dataset.
-
-![Vote Average Distribution](Images/Avg_vote%20distribution.png)
-
----
-
-### Movie Releases Per Year
-Displays the number of movies released each year.
-
-![Movies Per Year](Images/movies%20distribution%20per%20year.png)
-
----
-
-### Top 10 Most Popular Movies
-Highlights the movies with the highest popularity scores.
-
+### Top 10 Movies
 ![Top 10 Movies](Images/Top%2010%20movies.png)
 
----
+### Movies Released Per Year
+![Movies Released Per Year](Images/movies%20distribution%20per%20year.png)
 
 ### Correlation Heatmap
-Visualizes relationships between numerical variables.
-
-![Correlation Heatmap](Images/Correlaion%20heatmap.png)
+![Correlation Heatmap](Images/Correlation%20heatmap.png)
 
 ## Challenges Faced
 
@@ -117,7 +99,25 @@ Visualizes relationships between numerical variables.
 
 - Develop machine learning models to predict movie ratings.
 
+## Project Structure
 
+Netflix_Data_Analysis/
+│
+├── Images/
+│   ├── Avg_vote distribution.png
+│   ├── Correlation heatmap.png
+│   ├── Top 10 movies.png
+│   ├── genre column distribution.png
+│   └── movies distribution per year.png
+│
+├── Netflix_data_analysis.ipynb
+├── mymoviedb.csv
+├── requirements.txt
+├── README.md
+└── .gitignore
 
-# Author
-Apoorva Shree
+## Author
+
+**Apoorva Shree**
+
+GitHub: https://github.com/apoorva-shree
