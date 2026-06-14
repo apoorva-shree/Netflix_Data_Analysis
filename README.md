@@ -1,39 +1,11 @@
 # Netflix Movies Data Analysis
-# Project Overview
+## Project Overview
 
 This project explores a Netflix Movies dataset to uncover trends in movie genres, popularity, ratings, and release patterns using Python-based data analysis and visualization techniques.
 
 The goal of this project is to perform Exploratory Data Analysis (EDA), clean and preprocess raw movie data, and generate meaningful insights that help understand audience preferences and movie characteristics.
 
-# Objectives
--Clean and preprocess movie dataset
-
--Analyze genre distribution across movies
-
--Examine movie popularity trends
-
--Study rating patterns using vote averages
-
--Identify the most and least popular movies
-
--Explore movie release trends over the years
-
--Visualize relationships between numerical features
-
-# Technologies Used
--Python
-
--Pandas
-
--NumPy
-
--Matplotlib
-
--Seaborn
-
--Jupyter Notebook
-
-# Dataset Features
+## Dataset Features
 
 The dataset contains information such as:
 
@@ -51,94 +23,46 @@ The dataset contains information such as:
 
 -Overview
 
-# Data Preprocessing
+## Technologies Used
+-Python
 
-Several preprocessing steps were performed before analysis:
+-Pandas
 
-## 1.Date Formatting
+-NumPy
 
--Converted Release_Date column to datetime format.
+-Matplotlib
 
--Extracted only the release year for easier trend analysis.
+-Seaborn
 
-## 2.Feature Selection
+-Jupyter Notebook
 
-Removed unnecessary columns:
+## Analysis Performed
 
--Overview
+- Genre distribution analysis
 
--Poster_URL
+- Most common movie genres
 
--Original_Language
+- Popularity distribution
 
-## 3.Rating Categorization
+- Rating distribution
 
-The Vote_Average column was categorized into:
+- Highest rated movies
 
--Popular
+- Most popular movies
 
--Average
+- Release year trends
 
--Below Average
+## Key Findings
 
--Not Popular
+- Drama was the most common genre in the dataset.
 
-## 4.Missing Values Handling
+- Movies with higher popularity generally received more votes.
 
-Removed rows containing null values.
+- Certain genres consistently received higher average ratings.
 
-## 5.Genre Transformation
+- Most movies in the dataset were released after 2000.
 
--Split movies containing multiple genres.
-
--Used Pandas explode() to analyze each genre individually.
-
-# Exploratory Data Analysis
-# Genre Distribution
-
-Analyzed the frequency of movie genres available in the dataset.
-
-## Key Finding:
-Drama emerged as the most common genre.
-
-# Vote Average Analysis
-
-Visualized the distribution of movie ratings after categorization.
-
-## Key Finding:
-Most movies fall into the Average rating category.
-
-# Popularity Analysis
-
-Identified:
-
--Most Popular Movie
--Least Popular Movie
-
-## Most Popular Movie:
-🎥 Spider-Man: No Way Home
-
-## Release Year Trends
-
-Studied how movie releases are distributed across years.
-
-Insights were obtained using histogram-based visualization.
-
-# Correlation Analysis
-
-Generated a correlation heatmap to understand relationships among numerical variables such as:
-
--Popularity
-
--Vote Count
-
--Vote Average
-
--Top 10 Most Popular Movies
-
-Created a ranking of the top-performing movies based on popularity scores and visualized the results using bar charts.
-
-# Visualizations
+## Visualizations
 
 ### Genre Distribution
 Shows the frequency of each movie genre in the dataset.
@@ -173,17 +97,27 @@ Visualizes relationships between numerical variables.
 
 ![Correlation Heatmap](Images/Correlaion%20heatmap.png)
 
-# Key Insights
+## Challenges Faced
 
-Drama is the most dominant genre.
+- Handling missing values in the dataset.
 
-Most movies belong to the Average rating category.
+- Cleaning genre data to avoid duplicate categories.
 
-Spider-Man: No Way Home has the highest popularity score.
+- Fixing visualization errors while plotting.
 
-Movie releases show strong growth in recent years.
+- Understanding grouping and aggregation operations in Pandas.
 
-Popularity and vote-related features exhibit meaningful correlations
+## Future Improvements
+
+- Build a movie recommendation system.
+
+- Perform sentiment analysis on movie reviews.
+
+- Create an interactive dashboard using Streamlit.
+
+- Develop machine learning models to predict movie ratings.
+
+
 
 # Author
 Apoorva Shree
